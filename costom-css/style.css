@@ -1,0 +1,252 @@
+        /* work-font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 4000;
+  font-style: normal;
+}
+     /* header-area */
+ .header{
+   background: rgba(255, 144, 14, 0.1); 
+   width: 100%;
+   height: auto;
+ }    
+ .display-flex{
+    display: flex;
+ }
+ .navbar{
+    justify-content: space-between;
+    margin: 0 20px;
+    align-items: center;
+ }
+ .brand{
+    font-size: 2.6em;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+ }
+ .nav-link li{
+    margin-left: 20px;
+    list-style: none;
+ }
+ li a{
+  text-decoration:none;
+  color: #424242;
+ }
+ .header-text{
+    width: 600px;
+    height: 220px;
+    margin: 10px auto;
+    /* border: 1px solid blue; */
+ }
+ .elder-text{
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+      font-family: "Work Sans", sans-serif;
+
+ }
+ .similar{
+    width: 800px;
+    height: 52px;
+    margin: 20px auto;
+    text-align: center;
+}
+.dark-1{
+     color: #727272;
+
+ }
+ .dark-3{
+    color: rgba(255, 144, 14, 1);
+ }
+ .explor-more{
+    width: 180px;
+    height: 64px;
+    background: rgba(255, 144, 14, 1);
+    margin: 0 auto;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.span{
+    padding: 2px 4px;
+    color: white;
+}
+.imass{
+    width: 1100px;
+    /* height: 700px; */
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+          /* section-1-area */
+ .section-1{
+    width: 1000PX;
+    margin: 20px auto;
+    display: flex;
+ } 
+ .parent{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+ } 
+ .child{
+       border-radius: 8px;
+ }       
+
+.mother{
+width: 48%;
+padding: 30px;
+}
+.cad-text{
+    height: auto;
+    padding-bottom: 20px;
+    transform: translate(60px,40px);
+    /* border: 1px solid blue;         */
+}
+.bold{
+    font-size: 3em;
+    font-family: "Work Sans", sans-serif;
+    text-align: start;
+}
+.quick{
+    font-family: none;
+}
+.space{
+    margin-left: 20px;
+    margin-top: 0;
+}
+.extra{
+    padding: 0;
+    margin-left: 12px;
+}    
+/* section-2-area */
+.section-2{
+    width: 1100px;
+    height: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}  
+.left-text{
+    width: 35%;
+}
+.son{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6px; 
+    background: #ffffff ;
+    box-shadow: 6px 8px 8px #ede9e9;
+}
+h4{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+}
+.right-imgs{
+    width: 48%;
+}
+.heair{
+    width: 250px;
+    height: 100px;
+    background: rgba(255, 144, 14, 1);
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    top: -100px;
+    right: 120px;
+    border-radius: 8px;
+}
+.year{
+    font-size: 4em;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+ }
+ .more{
+    font-size: 1em;
+    color: #ffffff;
+ }
+   
+    /* section-amall-area */
+    .smal-area{
+        text-align: left;
+        margin: 20px auto 40px 200px;
+    }
+
+
+ .cat-area{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    margin: 20px 40px;
+    /* justify-content: space-around; */
+ }   
+ .fact-card{
+    width: 200px;
+    height: 200px;
+    border: 1px solid darkorange;
+    border-radius: 6px;
+    text-align: center;
+ }
+ .fact-card .hold > img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 20px auto 0 auto;
+ }
+ .hold{
+   display: grid;
+   justify-content: center;
+   align-content: center;
+ }
+ .brandd{
+   font-size: 2.8em;
+   font-weight: 600;
+   font-family:  "Work Sans", sans-serif;
+   margin-top: 5px;
+   margin-bottom: 5px;
+
+ }
+           /* section-3-area */
+  .more-small{
+    width: 500px;
+    height: 130px;
+    margin: 20px auto;
+    text-align: center;
+  }         
+
+ /* last-area-secion */
+ .footer-nav{
+    margin: 20px 80px;
+    display: flex;
+    justify-content: space-around;
+ }
+ .start{
+    width: 150px;
+    height: 40px;
+ }
+ .start img{
+    filter: grayscale(100%);
+ }
+    /* foooter-area */
+  .footer{
+    padding-top: 20px ;
+    height: 80px;
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 8px;
+ background: rgba(255, 144, 14, 0.1)
+
+  }  
