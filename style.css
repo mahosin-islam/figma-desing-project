@@ -1,0 +1,284 @@
+     /* work-font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 4000;
+  font-style: normal;
+}
+/* header-area */
+.header{
+
+}
+/* nav-area */
+.nav-link{
+    margin: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    border: 1px solid blue;
+}
+.panda{
+    width: 20%;
+    height: auto;
+    /* padding-bottom: 15px; */
+
+}
+.scear-var{
+    width: 35%;
+    height: 35px;
+    margin: auto auto;
+    border-radius: 12px;
+      background: #f7f1f1;    
+     /* border: 2px solid blue; */
+}
+input[type="text"]{
+    width: 120px;
+    height: auto;
+    padding: 0 auto;
+    text-align: center;
+    border: none;
+    transform: translate(20px,4px);
+        background: #f7f1f1;
+        color: ;
+}
+.fa-brands{
+    float: right;
+    margin-right: 8px;
+    font-size: 20px;
+    color: #727272;
+    padding-top: 10px;
+} 
+
+.link-ul{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+ul li{
+    margin-right: 30px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+                 /* section-1-area */
+  .section-1{
+    height: 550px;
+    width: 1100px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-area{
+    width: 560px;
+    height: 430px;
+    /* border: 1px solid darkblue; */
+}
+.text-area h2{
+    font-family: bold;
+    font-size: 3em;
+     font-family: "Work Sans", sans-serif;
+    }
+    .dark-1{
+        color: #727272;
+    }
+    .dolar{
+        color: rgba(255, 19, 111, 1);
+        font-size: 2.5em;
+        font-family: "Work Sans", sans-serif;
+        font-weight: bold;
+        position: relative;
+        top: 70px;
+}
+.btn{
+    width: 150px;
+    height:52px;
+    background: #FF589B;
+    position: relative;
+    top: 102px;
+    left: 0;
+    text-align: center;
+    border-radius: 7px;
+}
+.btn h5 {
+    color: white;
+    transform: translate(0, 17px);
+    font-family: "Work Sans", sans-serif;
+}
+.cad-monitor{
+    width: 400px;
+    height: 380px;
+    /* border: 1px solid darkblue; */
+}
+.cad-monitor >img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/* section-2-area */
+.section-2{
+    width: 1100px;
+    height: 200px;
+    margin: 50px auto;
+}
+.dark-2{
+    font-size: 3em;
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+}
+.dark-4{
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+}
+.watch-text{
+    align-items: center;
+    height: 120px;
+    width: 360px;
+    display: flex;
+    background: #FF9C35;
+    border-radius: 7px;
+    justify-content: space-around;
+}
+
+.watch-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+}
+.watch-text >img{
+    width: 70px;
+    height: 90px;
+}
+.extra-bold{
+    background: #3F07F8;
+}
+.extra{
+background:#FF136F;
+}
+/* section-3-area */
+.back-color{
+    background: #f7f1f1;
+    width: 100%;
+    height: auto;
+}
+
+.section-3{
+    height: 580px;
+    width: 1100px;
+    margin: 50px auto;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.child{
+    height: auto;
+    width: 350px;
+    background: #ffffff;
+    border-radius: 6px;
+    /* border: 1px solid blue; */
+    padding-bottom: 20px;
+}
+.child > .imaas{
+    display: block;
+    width: 280px;
+    height: 180px;
+    margin: 0 auto;
+}
+.lorem{
+    text-align: center;
+
+}
+.btm{
+    width: 140px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    background: black;
+    border-radius: 6px;
+    color: white;
+}
+.dolor{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: "Work Sans", sans-serif;
+    
+}
+.btm >h5 {
+    transform: translate(0, 10px);
+    
+}
+.dark-6{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+}
+.only{
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/* seciton-4-area */
+.about{
+    font-size: 30px;
+}
+.section-4{
+    margin: 0  auto;
+    width: 1100px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.childen{
+height: auto;
+}
+.childen > .imaas{
+    width: 290px;
+    height: 290px;
+}
+  /* seciton-5 */
+  .section-5{
+width: 1100px;
+height: 400px;
+margin: 50px auto;
+background: rgba(255, 242, 241, 1);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.input-file{
+    width: 650px;
+    height: 180px;
+    /* transform: translate(50%, 50%); */
+   text-align: center;
+    /* border: 1px solid blue; */
+    
+  }
+.power{
+    margin-top: -20px;
+}
+input[type="email"]{
+    width: 100px;
+    height: 30px;
+    border: none;
+    transform: translate(0, 15px);
+}
+
+.email{
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+}
+.send{
+    float: right;
+    width: 120px;
+    height: 100%;
+    background: #cf276a;
+    color: #ffffff;
+    align-content: center;
+    border-radius: 6px;
+}
